@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;//выше других
+  width: 100%;
+  background: rgba(21, 43, 61, 1);
+}
+.header_wrap {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: auto;
+  font-style: normal;
+  font-size: 34px;
+}
+.header_phone {
+  margin-left: 20px;
+  margin-right: 25px;
+}
+.logo,
+.header_phone {
+  padding: 5px 0;
+  color: rgba(215, 242, 218, 1);
+}
+.container {
+  margin-left: 5px;
+}

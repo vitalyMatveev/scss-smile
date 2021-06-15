@@ -1,9 +1,12 @@
 // common files
+@import "common/_all.scss";
 @import "common/_variables.scss";
 @import "common/_fonts.scss";
 @import "common/_typography.scss";
 
 // blocks
+@import "blocks/_main_nav.scss";
+
 @import "blocks/_promo.scss";
 
 @import "blocks/_about.scss";
