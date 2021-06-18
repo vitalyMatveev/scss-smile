@@ -2,28 +2,28 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;//выше других
+  z-index: 1000;
   width: 100%;
-  background: rgba(21, 43, 61, 1);
-}
-.header_wrap {
+  background: #152b3d;
+ }
+ .header_wrap {
   display: flex;
   align-items: center;
-}
-.logo {
+ }
+ .logo {
   margin-right: auto;
   font-style: normal;
   font-size: 34px;
-}
-.header_phone {
+ }
+ .header_phone {
   margin-left: 20px;
   margin-right: 25px;
-}
-.logo,
-.header_phone {
+ }
+ logo,
+ .header_phone {
   padding: 5px 0;
-  color: rgba(215, 242, 218, 1);
-}
-.container {
+  color: #d7f2da;
+ }
+ .container {
   margin-left: 5px;
-}
+ }
